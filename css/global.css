@@ -1,0 +1,95 @@
+/* Font */
+.heading-mini{
+    font-size: 0.75rem;
+}
+.heading-small{
+    font-size: 1rem;
+}
+.heading-normal{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* Text */
+.text-align-center{
+    text-align: center;
+}
+
+/* Input */
+.form-input{
+    font-size: 1rem;
+    width: 70%;
+    height: 40px;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid #d3d3d3;
+    outline: none;
+}
+.form-input:focus{
+    border: 1px solid #d10606;
+}
+
+/* Button */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;    
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.btn-astroweno{
+    color: white;
+    background-color: #d10606;
+}
+.btn-astroweno:hover{
+    background-color: #b80303;
+    border: 1px solid #d10606;
+}
+.btn-wenosphere{
+    color: white;
+    background-color: #2196f3;
+}
+.btn-wenosphere:hover{
+    background-color: #1b7fd1;
+}
+
+/* Lists */
+.list-group-item{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.35rem;
+}
+
+/* Alerts */
+.alert{
+    width: 100%;
+    min-height: 50px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

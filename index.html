@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="todos-header">
+            <h2 class="heading-normal">Todo App</h2>
+        </div>
+        <article class="todos-container">
+            <div class="todos-body">
+                <form id="todo-form" name="form">
+                    <div class="form-area">
+                        <div class="form-group">
+                            <input class="form-input" type="text" name="todo" id="todo" placeholder="Write a todo.">
+                        </div>
+                    </div>
+                    <button class="btn btn-astroweno" id="add-todo-button" type="submit">Add Todo</button>
+                </form>
+            </div>
+        </article>
+        <article class="todos-container">
+            <div class="todos-body">
+                <h5 class="todos-title heading-small">Todos</h5>
+                <form class="todo-from" name="todo">
+                    <input class="form-input" type="text" name="filter" id="filter" placeholder="Search a todo.">
+                </form>
+            </div>
+            <ul class="list-group">
+                    <!-- <li class="list-group-item d-flex justify-content-between">
+                        Todo 1
+                        <a href = "" class ="delete-item">
+                            <i class = "fa fa-remove"></i>
+                        </a>
+                    </li> -->
+            </ul>
+            <a class="btn btn-astroweno" id="clear-all-todos" type="submit">Clear All Todos</a>
+        </article>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
